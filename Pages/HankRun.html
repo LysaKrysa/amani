@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Selection</title>
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%), linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+
+        h1 {
+            color: #e0e0e0;
+            margin-top: 50px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            flex-direction: column;
+        }
+
+        button {
+            background-color: #414141;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #1f1f1f;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Chapter</h1>
+        <button onclick="location.href='../Chapters/Chapter1.html'">Chapter 1</button>
+        <button onclick="location.href='../Chapters/Chapter2.html'">Chapter 2</button>
+        <button onclick="location.href='../Chapters/Chapter3.html'">Chapter 3</button>
+        <button onclick="location.href='https://skilledplayers.xyz/'">Homepage</button>
+    </div>
+    <footer>
+        &copy; 2025 skilled players. All rights reserved.
+    </footer>
+</body>
+</html>
